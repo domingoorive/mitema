@@ -1,0 +1,14 @@
+/* /* 
+Theme Name: temis dominguis dos 
+Theme URI: https://www.domingoorive.com 
+Author: programadior
+Author URI: https://www.domingoorive.com 
+Description: dame tema. 
+Version: 1.0 
+License: GNU General Public License v2 or later 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html 
+Text Domain: temote /* */
+
+body{
+    background-color: aqua;
+}
