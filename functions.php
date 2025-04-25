@@ -19,3 +19,12 @@ function mi_tema_scripts() {
 
 add_action('wp_enqueue_scripts', 'mi_tema_enqueue_styles');
 add_action('wp_enqueue_scripts', 'mi_tema_scripts');
+
+function mi_tema_menu(){
+    register_nav_menus(
+        array(
+            'mi-menu' => __( 'Mi menú' )
+        )
+    );
+}
+add_action( 'init', 'mi_tema_menu' );
